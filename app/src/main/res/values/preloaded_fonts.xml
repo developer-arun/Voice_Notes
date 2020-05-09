@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/herr_von_muellerhoff</item>
+        <item>@font/kaushan_script</item>
+        <item>@font/rouge_script</item>
+        <item>@font/rye</item>
+    </array>
+</resources>

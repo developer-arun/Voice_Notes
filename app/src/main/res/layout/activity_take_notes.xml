@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad1"
+    tools:context=".TakeNotes">
+
+    <ImageButton
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_info_35" />
+
+    <TextView
+        android:id="@+id/title_takenotes"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/kaushan_script"
+        android:text="VOICE NOTES"
+        android:textColor="#D50000"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-3dp"
+        android:layout_marginBottom="11dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="380dp"
+            android:layout_height="420dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:padding="10dp" />
+
+        <ImageButton
+            android:id="@+id/mic"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_mic_black_100dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/signtaure_takenotes"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/herr_von_muellerhoff"
+        android:text="Developed  By                                        Arun Kumar"
+        android:textColor="#FD0015A5" />
+
+</RelativeLayout>
